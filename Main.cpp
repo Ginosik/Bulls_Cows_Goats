@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "FBullCowGame.h"
 
 void PrintIntro();
 void PlayGame();
@@ -37,6 +38,7 @@ void PrintIntro()
 //Loop for the number of turns asking for guess
 void PlayGame()
 {
+	FBullCowGame BCGame;
 	constexpr int NUMBER_OF_TURNS = 5;
 	for (int i = 0; i < NUMBER_OF_TURNS; i++)
 	{

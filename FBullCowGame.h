@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 
-class GBullCowGame
+class FBullCowGame
 {
 public:
 	void Reset();//TODO make a more rich return value.

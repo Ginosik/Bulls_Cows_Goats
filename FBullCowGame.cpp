@@ -1,26 +1,28 @@
 #include "FBullCowGame.h"
 
-void GBullCowGame::Reset()
+
+
+void FBullCowGame::Reset()
 {
 	return;
 }
 
-int GBullCowGame::GetMaxTries()
+int FBullCowGame::GetMaxTries()
 {
 	return 0;
 }
 
-int GBullCowGame::GetCurrentTry()
+int FBullCowGame::GetCurrentTry()
 {
 	return 0;
 }
 
-bool GBullCowGame::IsGameWon()
+bool FBullCowGame::IsGameWon()
 {
 	return false;
 }
 
-bool GBullCowGame::CheckGuessValidaty(std::string)
+bool FBullCowGame::CheckGuessValidaty(std::string)
 {
 	return false;
 }
