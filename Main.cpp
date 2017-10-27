@@ -19,6 +19,7 @@ int main()
 	{
 		PrintIntro();
 		PlayGame();
+		//TODO add a game summary
 		bPlayAgain = AskToPlayAgain();
 	} while (bPlayAgain);
 	return 0; //Exit the application
@@ -49,7 +50,7 @@ void PlayGame()
 		std::cout << std::endl;
 	}
 
-	std::cout << std::endl;
+	//TODO summarize game
 
 	return;
 }
